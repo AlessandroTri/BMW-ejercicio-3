@@ -1,0 +1,165 @@
+*{
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+
+header{
+    background-image: url(./imagen/bmwdef.jpg);
+    background-size: cover;
+    height: 800px;
+    display: flex;
+    flex-direction:column;
+    justify-content: space-between;
+}
+
+
+
+.menu{
+    display:flex;
+    justify-content: space-between;
+    width:90%;
+}
+
+#logo__cabecera img { 
+    width: 100px;
+    height: 100px;     
+}
+
+#logo__cabecera{
+    display:inline-block;
+    margin-left: 50px;
+    margin-top: 5px;
+}
+
+.menu__list{
+    display: flex;
+    gap: 20px;
+    color: white;
+    list-style-type: none;
+    font-size: 20px;
+    margin-left: 20px;
+    margin-top: 30px;
+}
+
+.text__imagen{
+    color: white;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+main{
+    display: flex;
+    justify-content: space-between;
+    flex-direction:column;
+    
+}
+
+.list__articulo{
+    display: flex;
+    justify-content:column;
+    gap:60px;
+    font-size: 20px;
+    background-color: rgb(183, 184, 185);
+    list-style-type: none;
+}
+
+.vehiculo{
+    max-width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+    margin-left: 2rem;
+}
+
+.modelo{
+    width: 400px;
+    justify-content: left;
+    align-items: center;
+    padding:1px;
+    margin-bottom: 10px;
+    font-size: 15px;
+    margin-left: 2rem;
+}
+
+.info_first{
+    max-width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+    margin-left: 2rem;
+}
+
+.info1{
+    width: 400px;
+    justify-content:left;
+    align-items:center;
+    padding: 1px;
+    margin-left: 2rem;
+    
+}
+
+.info1 img { 
+    width: 420px;
+    height: 320px;   
+    
+}
+
+.info_second{
+    max-width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content:flex-start;
+    align-items: center;
+    margin-left: 2rem;
+}
+
+.info2{
+    width: 400px;
+    justify-content:left;
+    align-items:center;
+    padding: 1px;
+    margin-left: 2rem;
+    margin-top: 30px;
+}
+
+.info_third{
+    max-width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+    margin-left: 2rem;
+}
+
+.info3{
+    width: 400px;
+    justify-content:left;
+    align-items:center;
+    padding: 1px;
+    margin-left: 2rem;
+    background-color: rgb(196, 198, 198);
+    margin-top: 30px;
+}
+
+.menu__inferior{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:flex-start;
+    
+}
+
+.menu__infer{
+    display: flex;
+    justify-content: space-between;
+    margin-left:4rem;
+    margin-top: 50px;
+}
+
+
